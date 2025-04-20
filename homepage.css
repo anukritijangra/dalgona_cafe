@@ -1,0 +1,279 @@
+*{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+body{
+    background-color:#EAE0D7;
+}
+/* styling for navbar */
+.navbar{
+  height: 70px;
+  width: vw;
+  background-color: #744C34;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* styling for logo that is being added now */
+
+.logo{
+  background-image: url(dalgonalogo.png);
+  background-size: cover;
+  height: 70px;
+  width: 80px;
+  box-sizing: border-box;
+}
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+  border: 2px solid rgb(196, 193, 193);
+  border-radius: 3px;
+}
+
+/* the location   */
+.add1{
+  color: #EAE0D7; 
+ font-size: 0.90rem;
+ margin-left: 15px;
+}
+.add2{
+  color:#EAE0D7 ;
+font-size: 1rem;
+margin-left: 4px;
+}
+.icon{
+  display: flex;
+  align-items: center;
+  color: #EAE0D7;
+}
+/*  styling for search bar engine  */
+.search{
+  display: flex;
+  justify-content:space-evenly ;
+  background-color: #c56c46;
+  width: 600px;
+  height: 30px;
+  border-radius: 50px;
+}
+
+.search-select{
+  background-color: #c56c46;
+  color: #EAE0D7;
+  font-size: 0.95rem;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius:50px;
+  border: none;
+}
+.search-input{
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+  background-color: #e9d7c7;
+}
+.search-icon{
+  width: 45px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  color:#EAE0D7 ;
+}
+
+.search:hover{
+  border: 2px solid rgb(196, 193, 193);
+  border-radius: 5px;
+}
+
+/* styling for delivery and orders */
+.add11{
+  font-size: 0.95rem;
+  margin-left: 20px;
+  color: #EAE0D7;
+}
+.add22{
+font-size: 1rem;
+margin-left: 4px;
+color: #EAE0D7;
+}
+.iconcart{
+  /* display: flex; */
+  align-items:center;
+  color: #EAE0D7;
+  align-items: center;
+}
+.orderdelivery:hover{
+  border: 2px solid rgb(196, 193, 193);
+  border-radius: 3px;
+}
+
+/* styling for bestsellers  */
+.about{
+  color: #EAE0D7;
+}
+.iconbestsellers{
+  color: #EAE0D7;
+  /* display: flex; */
+  align-items: center;
+}
+.bestsellers:hover{
+  border: 2px solid rgb(196, 193, 193);
+  border-radius: 3px;
+}
+.about:hover{
+  border: 2px solid rgb(196, 193, 193);
+  border-radius: 3px;
+}
+ /* styling for user login section  */
+.usericon{
+  color: #EAE0D7;
+}
+.user:hover{
+  border: 2px solid rgb(196, 193, 193);
+  border-radius: 3px;
+}
+
+
+/*  now we are creating the hero section  */
+
+.herosection{
+  height: 560px;
+  width: vw;
+  color: #c56c46;
+  /* background-image: url(lattteart.jpeg); */
+  background-size:cover;
+  /* height:vh;
+  width:vw; */
+  background-image:url(hs.jpeg);
+  /* display: flex; */
+  /* background-size: cover; */
+
+}
+.herotagline{
+  background-color: #EAE0D7;
+  color: #9b5537;
+  height: 35px;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*  styling for main products and main content  */
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #744C34;
+}
+
+.box{
+  height: 250px;
+  width: 23%;
+  border: 2px solid #e9d7c7;
+  background-color: #EAE0D7;
+  border-radius: 25px;
+  /* padding: 20px 0px 15px ; */
+  margin-top: 15px;
+  color:#9b5537;
+}
+
+.boximage{
+  height: 200px;
+  width: 97%;
+  background-size: cover;
+  border-radius: 25px;
+}
+.boxcontent{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* the styling for footer section */
+
+footer {
+  margin-top:15px;
+}
+
+.panel1 {
+  background-color:#EAE0D7 ;
+  height: 35px;
+  width: vw;
+  font-size: 18px;
+  color: #9b5537;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.panel2{
+  background-color:#744C34;
+  color: #EAE0D7;
+  height: 200px;
+  width: vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+  
+ul{
+  margin-top: 10px;
+}
+
+ul a {
+  display: block;
+  font-size: 0.95rem;
+  margin: 6px;
+}
+
+.panel3{
+  background-color: #744C34;
+  border-top: 0.5px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e9d7c7;
+  font-size: large;
+  word-spacing: 0.25;
+  height: 30px;
+  justify-content: space-evenly;
+}
+
+.panel4{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: #683620;
+ height: 30px;
+}
+
+.logos i {
+  font-size: 20px;
+  color: #EAE0D7;
+  display:inline;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 7px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
